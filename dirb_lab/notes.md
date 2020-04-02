@@ -32,7 +32,6 @@ My IP: `10.104.11.50`
 			```
 Connect to given DB: `mysql -h 10.104.11.198 -u awdmgmt -pUChxKQk96dVtM07`
 
-We're in!
 ```bash
 MySQL [(none)]> use awdmgmt_accounts
 Reading table information for completion of table and column names
@@ -55,3 +54,4 @@ MySQL [awdmgmt_accounts]> select * from accounts;
 +----+--------------------+----------+-------------+
 1 row in set (0.047 sec)
 ```
+We're in!
