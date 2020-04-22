@@ -8,7 +8,9 @@ My IP: `192.168.99.100`
 ---
 - `192.168.99.10`
 	- Ports open: 22, 80
+	- Target web server
 - `192.168.99.11`
 	- Ports open: 22, 53, 80, 443
+	- External server
 
 2. Check websites

